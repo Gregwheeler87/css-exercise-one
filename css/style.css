@@ -1,28 +1,40 @@
-body
-  font-size: 14px;
-}
 
+body {
+  font-size: 14px;
+  margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* The nav bar will be under the h1 */
 nav {
   background color: yellow;
   height: 100px;
   margin-top: -10px;
   position: fixed;
   width: 100%;
+}
 
 
 section {
   margin: 0 auto;
   width: 60%;
 }
-
+/* This h1 will be at the top of the page */
 h1 {
-  font-family sans-serif;
+  font-family:inherit sans-serif;
   font-size: 2em;
 }
 
 .example, h3 {
   padding-top: 30px;
-  text-align center
+  text-align: center;
+}
+
+.example {
+  background-color: purple;
 }
 
 h3 {
@@ -32,5 +44,18 @@ h3 {
 .element {
   background-color: green;
   height: 100px;
-  margin 10px 0;
+  margin: 10px 0;
   width: 100%;
+}
+
+.element-color1 {
+  background-color: orange;
+}
+
+.element-color2 {
+  background-color: pink;
+}
+
+.blue {
+  background-color: blue;
+}
